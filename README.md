@@ -1,6 +1,6 @@
 # ByteCount
 
-`✓ 100% test coverage` • `✓ IEC/SI Formatting`
+`✓ 100% test coverage` • `✓ IEC/SI Formatting` • [`HexDocs`](https://hexdocs.pm/byte_count/readme.html)
 
 ByteCount is a tiny, dependency-free Elixir library for working with byte counts across multiple unit systems:
 
@@ -9,9 +9,9 @@ ByteCount is a tiny, dependency-free Elixir library for working with byte counts
 
 ## Features
 
-  * Construction helpers: [`parse/1`](ByteCount.html#parse/1), [`kb/1`](ByteCount.html#kb/1), [`kib/1`](ByteCount.html#kib/1), ...
-  * Formatting helpers: [`format/2`](ByteCount.html#format/2)
-  * Arithmetic helpers: [`add/2`](ByteCount.html#add/2), [`subtract/2`](ByteCount.html#subtract/2), ...
+  * Construction helpers: [`parse/1`](https://hexdocs.pm/byte_count/ByteCount.html#parse/1), [`kb/1`](https://hexdocs.pm/byte_count/ByteCount.html#kb/1), [`kib/1`](https://hexdocs.pm/byte_count/ByteCount.html#kib/1), ...
+  * Formatting helpers: [`format/2`](https://hexdocs.pm/byte_count/ByteCount.html#format/2)
+  * Arithmetic helpers: [`add/2`](https://hexdocs.pm/byte_count/ByteCount.html#add/2), [`subtract/2`](https://hexdocs.pm/byte_count/ByteCount.html#subtract/2), ...
   * No dependencies & 100% test coverage
 
 
@@ -31,14 +31,14 @@ end
 
 | Area  | Function                              | Example                   |
 |:-----:|---------------------------------------|---------------------------|
-| `C`   | [`parse/1`](ByteCount.html#parse/1)   | `ByteCount.parse("10kb")` |
-|       | [`parse!/1`](ByteCount.html#parse!/1) |                           |
-| `C`   | [`b/1`](ByteCount.html#b/1), [`kb/1`](ByteCount.html#kb/1), [`mb/1`](ByteCount.html#mb/1), [`gb/1`](ByteCount.html#gb/1), [`tb/1`](ByteCount.html#tb/1), [`pb/1`](ByteCount.html#pb/1)  | `ByteCount.kb(1).bytes == 1000` |
-|       | [`eb/1`](ByteCount.html#eb/1), [`zb/1`](ByteCount.html#zb/1), [`yb/1`](ByteCount.html#yb/1), [`rb/1`](ByteCount.html#rb/1), [`qb/1`](ByteCount.html#qb/1)  | |
-| `C`   | [`kib/1`](ByteCount.html#kib/1), [`mib/1`](ByteCount.html#mib/1), [`gib/1`](ByteCount.html#gib/1), [`tib/1`](ByteCount.html#tib/1), [`pib/1`](ByteCount.html#pib/1)  | `ByteCount.kib(1).bytes == 1024` |
-|       | [`eib/1`](ByteCount.html#eib/1), [`zib/1`](ByteCount.html#zib/1), [`yib/1`](ByteCount.html#yib/1), [`rib/1`](ByteCount.html#rib/1), [`qib/1`](ByteCount.html#qib/1)  | |
-| `F`   | [`format/1`](ByteCount.html#format/1), [`format/2`](ByteCount.html#format/2), [`to_integer/1`](ByteCount.html#to_integer/1) | `ByteCount.format(byte_count)` |
-| `A`   | [`add/2`](ByteCount.html#add/2), [`subtract/2`](ByteCount.html#subtract/2), [`multiply/2`](ByteCount.html#multiply/2), [`divide/2`](ByteCount.html#divide/2) | `ByteCount.add(bc1, bc2)` |
+| `C`   | [`parse/1`](https://hexdocs.pm/byte_count/ByteCount.html#parse/1)   | `ByteCount.parse("10kb")` |
+|       | [`parse!/1`](https://hexdocs.pm/byte_count/ByteCount.html#parse!/1) |                           |
+| `C`   | [`b/1`](https://hexdocs.pm/byte_count/ByteCount.html#b/1), [`kb/1`](https://hexdocs.pm/byte_count/ByteCount.html#kb/1), [`mb/1`](https://hexdocs.pm/byte_count/ByteCount.html#mb/1), [`gb/1`](https://hexdocs.pm/byte_count/ByteCount.html#gb/1), [`tb/1`](https://hexdocs.pm/byte_count/ByteCount.html#tb/1), [`pb/1`](https://hexdocs.pm/byte_count/ByteCount.html#pb/1)  | `ByteCount.kb(1).bytes == 1000` |
+|       | [`eb/1`](https://hexdocs.pm/byte_count/ByteCount.html#eb/1), [`zb/1`](https://hexdocs.pm/byte_count/ByteCount.html#zb/1), [`yb/1`](https://hexdocs.pm/byte_count/ByteCount.html#yb/1), [`rb/1`](https://hexdocs.pm/byte_count/ByteCount.html#rb/1), [`qb/1`](https://hexdocs.pm/byte_count/ByteCount.html#qb/1)  | |
+| `C`   | [`kib/1`](https://hexdocs.pm/byte_count/ByteCount.html#kib/1), [`mib/1`](https://hexdocs.pm/byte_count/ByteCount.html#mib/1), [`gib/1`](https://hexdocs.pm/byte_count/ByteCount.html#gib/1), [`tib/1`](https://hexdocs.pm/byte_count/ByteCount.html#tib/1), [`pib/1`](https://hexdocs.pm/byte_count/ByteCount.html#pib/1)  | `ByteCount.kib(1).bytes == 1024` |
+|       | [`eib/1`](https://hexdocs.pm/byte_count/ByteCount.html#eib/1), [`zib/1`](https://hexdocs.pm/byte_count/ByteCount.html#zib/1), [`yib/1`](https://hexdocs.pm/byte_count/ByteCount.html#yib/1), [`rib/1`](https://hexdocs.pm/byte_count/ByteCount.html#rib/1), [`qib/1`](https://hexdocs.pm/byte_count/ByteCount.html#qib/1)  | |
+| `F`   | [`format/1`](https://hexdocs.pm/byte_count/ByteCount.html#format/1), [`format/2`](https://hexdocs.pm/byte_count/ByteCount.html#format/2), [`to_integer/1`](https://hexdocs.pm/byte_count/ByteCount.html#to_integer/1) | `ByteCount.format(byte_count)` |
+| `A`   | [`add/2`](https://hexdocs.pm/byte_count/ByteCount.html#add/2), [`subtract/2`](https://hexdocs.pm/byte_count/ByteCount.html#subtract/2), [`multiply/2`](https://hexdocs.pm/byte_count/ByteCount.html#multiply/2), [`divide/2`](https://hexdocs.pm/byte_count/ByteCount.html#divide/2) | `ByteCount.add(bc1, bc2)` |
 
 `C` = Construction, `F` = Formatting, `A` = Arithmethic.
 
